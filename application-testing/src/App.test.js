@@ -30,4 +30,6 @@ test("hit button clicks", () => {
   RTL.fireEvent.click(getByText(/hit/i));
 });
 
-
+test("App renders without crashing", () => {
+  RTL.render(<App />);
+});

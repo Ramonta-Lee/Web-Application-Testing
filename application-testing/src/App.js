@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Display from "./components/Display";
 import "./App.css";
-import Dashboard from "./components/Dashboard";
 
 class App extends Component {
   constructor() {
