@@ -70,7 +70,6 @@
   background-color: #656565;
 }
 
-
 .home_name {
   text-transform: uppercase;
 }
@@ -84,6 +83,20 @@
   background-color: var(--black);
   color: var(--red);
   padding: 5%;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.board-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.number-container {
 }
 
 .count-button {

@@ -10,11 +10,15 @@ const Display = props => {
         <div className="topRow">
           <div className="home">
             <h2 className="home_name">At Bat</h2>
+            <div className="board-container">
+            <Dashboard hitCounter={props.hitCounter} foulCounter={props.foulCounter} ballCounter={props.ballCounter} strikeCounter={props.strikeCounter} state={props.state} />
+            <div className="numbers">
             <div className="strikes">{strike}</div>
             <div className="balls">{ball}</div>
             <div className="hits">{hit}</div>
-            <div className="fouls">{foul}</div>
-            <Dashboard hitCounter={props.hitCounter} foulCounter={props.foulCounter} ballCounter={props.ballCounter} strikeCounter={props.strikeCounter} state={props.state} />
+            <div className="fouls">{foul}</div>  
+            </div>
+            </div>
           </div>
         </div>
       </section>
