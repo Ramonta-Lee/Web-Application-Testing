@@ -29,3 +29,5 @@ test("hit button clicks", () => {
   const { getByText } = RTL.render(<Dashboard />);
   RTL.fireEvent.click(getByText(/hit/i));
 });
+
+
