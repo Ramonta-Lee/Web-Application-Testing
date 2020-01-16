@@ -1,0 +1,113 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.balls-strikes {
+  width: 58%;
+  margin: 10rem auto;
+  background-color: #0b5402;
+  color: white;
+  border-radius: 0.5rem;
+  margin-top: 10rem;
+  padding: 5rem;
+  border: 4px solid #aaa;
+}
+
+.topRow {
+  display: flex;
+  justify-content: space-around;
+  place-items: center;
+  height: 20rem;
+}
+
+.home,
+.away {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  place-items: center;
+  border: 3px solid #fff;
+  border-radius: 0.5rem;
+  width: 15rem;
+}
+
+.home {
+  background-color: #656565;
+}
+
+.away {
+  background-color: #af750a;
+}
+
+.home_name,
+.away_name {
+  text-transform: uppercase;
+}
+
+.home_strikes,
+.home_balls,
+.away_balls,
+.away_strikes {
+  width: 90%;
+  text-align: center;
+  background-color: var(--black);
+  color: var(--red);
+  padding: 5%;
+}
+
+.count-button {
+  border-radius: 40px;
+  background: #000;
+  color: #fff;
+  box-shadow: 0 3px blue;
+  -webkit-transition: none;
+  -moz-transition: none;
+  transition: none;
+  text-decoration: none;
+  outline-style: none;
+}
+
+.count-button:hover {
+  box-shadow: 0 4px green;
+}
+
+.count-button:active {
+  box-shadow: 0 0 green;
+  top: 6px;
+}
