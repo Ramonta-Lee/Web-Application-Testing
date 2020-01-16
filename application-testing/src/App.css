@@ -74,29 +74,22 @@
   text-transform: uppercase;
 }
 
-.home_strikes,
-.home_balls,
-.away_balls,
-.away_strikes {
-  width: 90%;
-  text-align: center;
-  background-color: var(--black);
-  color: var(--red);
-  padding: 5%;
+.strikes,
+.balls,
+.hits {
+  margin-bottom: 100%;
 }
 
 .button-container {
   display: flex;
   flex-direction: column;
+  margin: 2%;
 }
 
 .board-container {
   display: flex;
   width: 100%;
   justify-content: space-evenly;
-}
-
-.number-container {
 }
 
 .count-button {
@@ -109,6 +102,7 @@
   transition: none;
   text-decoration: none;
   outline-style: none;
+  margin-bottom: 30%;
 }
 
 .count-button:hover {
