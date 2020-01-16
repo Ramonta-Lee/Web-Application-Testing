@@ -39,7 +39,7 @@
 
 .balls-strikes {
   width: 58%;
-  margin: 10rem auto;
+  margin: 1rem auto;
   background-color: #0b5402;
   color: white;
   border-radius: 0.5rem;
@@ -55,8 +55,7 @@
   height: 20rem;
 }
 
-.home,
-.away {
+.home {
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -71,12 +70,8 @@
   background-color: #656565;
 }
 
-.away {
-  background-color: #af750a;
-}
 
-.home_name,
-.away_name {
+.home_name {
   text-transform: uppercase;
 }
 
